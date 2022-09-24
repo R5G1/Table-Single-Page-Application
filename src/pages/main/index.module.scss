@@ -1,0 +1,32 @@
+.main {
+    min-height: calc(100vh - 100px);
+
+}
+
+.mainConteiner {
+    padding: 10px;
+    height: calc(100vh - 50px);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: auto;
+
+}
+
+.mainConteinerPages {
+    display: flex;
+}
+
+.mainConteinerPBtn,.mainConteinerPBtnActive {
+    min-width: 20px;
+    width: 10%;
+}
+
+.mainConteinerPBtnActive {
+    border: 4px solid var(--main-color-mh);
+    font-weight: var(--front-w7);
+}

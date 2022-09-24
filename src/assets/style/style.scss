@@ -1,0 +1,75 @@
+//Styles
+
+@import "_null.scss";
+
+:root {
+    --main-color-d: rgb(59, 55, 55);
+    --main-color-w: rgb(255, 255, 255);
+    --main-color-o: rgb(0, 0, 0, 0);
+    --main-color-m: rgb(87, 47, 47);
+    --main-color-mh: rgb(141, 6, 6);
+    --bg-color-o1: rgba(0, 0, 0, 0.1);
+    --front-w3: 300;
+    --front-w5: 500;
+    --front-w7: 700;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    background: var(--bg-color-o1);
+}
+
+
+.app {
+
+}
+
+.conteiner {
+
+}
+
+button,input,select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color-w);
+    background-color: var(--main-color-m);
+    border: 2px solid var(--main-color-w);
+    width: 100%;
+    min-width: 250px;
+    padding: 5px;
+    height: 40px;
+    transition: background-color 0.3s ease 0s;
+    border-radius: 10px;
+    font-size: 18px;
+
+    &:hover {
+        background-color: var(--main-color-mh);
+    }
+
+    @media (max-width:420px) {
+        min-width: 50px;
+    }
+}
+
+p {
+    font-weight: var(--front-w5);
+    font-size: 18px;
+}
+
+h4 {
+    font-weight: var(--front-w7);
+    font-size: 21px;
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:420px) {}
