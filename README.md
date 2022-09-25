@@ -1,8 +1,8 @@
 # Art Quiz
 
-#link: https://r5g1-art-quiz.netlify.app/
+#link: https://r5g1-test-single-page-application.netlify.app/
 
-#us: HTML, SCSS, SCSS-module, React, Redux Toolkit, TypeScript, Webpack
+#us: HTML, SCSS, SCSS-module, React, TypeScript, Webpack
 
 ![Screenshot 2022-09-08 162528](https://user-images.githubusercontent.com/71373383/189136464-4118ab34-51af-4bf5-a283-792dad4ae599.png)
 
