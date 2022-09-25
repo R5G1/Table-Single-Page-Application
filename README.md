@@ -1,10 +1,10 @@
-# Art Quiz
+#Table-Single-Page-Application
 
 #link: https://r5g1-test-single-page-application.netlify.app/
 
 #us: HTML, SCSS, SCSS-module, React, TypeScript, Webpack
 
-![Screenshot 2022-09-08 162528](https://user-images.githubusercontent.com/71373383/189136464-4118ab34-51af-4bf5-a283-792dad4ae599.png)
+![Screenshot 2022-09-25 115005](https://user-images.githubusercontent.com/71373383/192135714-20d419ec-eeba-41f5-bfac-f3085e6e0d9e.png)
 
 # Getting Started with Create React App
 
