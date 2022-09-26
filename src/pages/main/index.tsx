@@ -20,8 +20,6 @@ function Main() {
     setTotalCount(getPagesCount(xTotalCount, limit));
   }
 
-  console.log(totalCount);
-
   function clikPage(params: number) {
     setPage(params);
   }

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { IArray } from '../../../components/type/type';
-import CreateContent from './createContent';
 import createContentCopy from './createContentCopy';
 import FilterArray from './filterArray';
 import styles from './style/showArray.module.scss';
@@ -32,7 +31,7 @@ function ShowArray({ post }: IShowArray) {
       <tbody>
         <tr>
           <td className={styles.ShowArrayContetnUserId}>
-            <CreateContent post={post} type={'userId'} />
+            <FilterArray array={createContentCopy(post, 'userId')} useFilter={false} />
           </td>
           <td>
             <FilterArray array={createContentCopy(post, 'id')} />
